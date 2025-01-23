@@ -9,7 +9,11 @@ public class BookServiceImplementation implements BookService{
 
     private BookRepository bookRepository;
 
-    public BookServiceImplementation(BookRepository bookRepository) {
+    public BookRepository getBookRepository() {
+        return bookRepository;
+    }
+
+    public void setBookRepository(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
 
