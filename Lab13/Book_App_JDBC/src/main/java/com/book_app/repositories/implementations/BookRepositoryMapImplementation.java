@@ -8,10 +8,10 @@ import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
-@Repository(value = "bookRepository")
+@Repository(value = "bookRepositoryMap")
 @Primary
-@Profile("dev")
-class bookRepositoryMapImplementation implements BookRepository {
+@Profile("test")
+public class BookRepositoryMapImplementation implements BookRepository {
     private static final Map<Integer, Book> booksMap = new HashMap<Integer, Book>();
     private static int counter = 0;
     static {
@@ -46,4 +46,3 @@ class bookRepositoryMapImplementation implements BookRepository {
         return booksMap.get(id);
     }
 }
-
