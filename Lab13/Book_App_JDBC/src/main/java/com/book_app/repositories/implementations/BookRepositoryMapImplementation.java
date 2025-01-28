@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.*;
 
 @Repository(value = "bookRepositoryMap")
-@Primary
+//@Primary
 @Profile("test")
 public class BookRepositoryMapImplementation implements BookRepository {
     private static final Map<Integer, Book> booksMap = new HashMap<Integer, Book>();

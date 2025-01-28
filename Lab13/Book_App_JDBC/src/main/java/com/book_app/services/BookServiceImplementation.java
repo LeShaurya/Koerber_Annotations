@@ -3,11 +3,14 @@ package com.book_app.services;
 import com.book_app.annotations.Loggable;
 import com.book_app.models.Book;
 import com.book_app.repositories.BookRepository;
+import com.book_app.repositories.implementations.BookRepositoryImplementation;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.jdbc.core.JdbcTemplate;
+
 
 import java.util.List;
 
@@ -31,6 +34,7 @@ public class BookServiceImplementation implements BookService{
     }
 
     @Override
+    @Loggable
     public Book addBook(Book book) {
         return bookRepository.addBook(book);
     }
@@ -42,11 +46,13 @@ public class BookServiceImplementation implements BookService{
     }
 
     @Override
+    @Loggable
     public void updateBook(int id, Book book) {
         bookRepository.updateBook(id, book);
     }
 
     @Override
+    @Loggable
     public Book getBookById(int id) {
         return bookRepository.getBookById(id);
     }

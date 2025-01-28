@@ -10,7 +10,6 @@ import java.util.*;
 
 @Repository(value = "bookRepository")
 @Primary
-@Profile("dev")
 class bookRepositoryMapImplementation implements BookRepository {
     private static final Map<Integer, Book> booksMap = new HashMap<Integer, Book>();
     private static int counter = 0;

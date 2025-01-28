@@ -1,1 +1,7 @@
-2025-01-24 12:03:24.854 [main] INFO  com.book_app.services.aspect.MethodLogger - Method getAllBooks took 58 ms to execute.
+2025-01-25 23:05:30.981 [main] INFO  com.book_app.services.aspect.MethodLogger - Method getAllBooks took 1144 ms to execute.
+2025-01-25 23:05:31.749 [main] INFO  com.book_app.services.aspect.MethodLogger - Method addBook took 502 ms to execute.
+2025-01-25 23:05:32.032 [main] INFO  com.book_app.services.aspect.MethodLogger - Method getBookById took 188 ms to execute.
+2025-01-25 23:05:32.110 [main] INFO  com.book_app.services.aspect.MethodLogger - Method updateBook took 63 ms to execute.
+2025-01-25 23:05:32.157 [main] INFO  com.book_app.services.aspect.MethodLogger - Method getBookById took 0 ms to execute.
+2025-01-25 23:05:32.189 [main] INFO  com.book_app.services.aspect.MethodLogger - Method deleteBook took 0 ms to execute.
+2025-01-25 23:05:32.220 [main] INFO  com.book_app.services.aspect.MethodLogger - Method getAllBooks took 0 ms to execute.

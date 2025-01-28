@@ -3,7 +3,6 @@ package com.book_app.repositories.implementations;
 import com.book_app.models.Book;
 import com.book_app.repositories.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
