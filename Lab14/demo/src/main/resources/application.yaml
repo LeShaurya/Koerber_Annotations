@@ -1,0 +1,36 @@
+spring:
+  profiles:
+    active: dev
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/trainingdb
+    username: root
+    password: root
+  application:
+    name: demo
+  main:
+    banner-mode: OFF
+server:
+  port: 8081
+
+key:
+  message: "Hello From default"
+
+account:
+  message: "welcome to prodapp test profile"
+  contactDetails:
+    name: "default"
+    email: "sdeep@default.com"
+  phoneNumbers:
+    -111111111
+    -222222222
+logging:
+  level:
+    root: OFF
+    org:
+      springframework:
+        boot: OFF

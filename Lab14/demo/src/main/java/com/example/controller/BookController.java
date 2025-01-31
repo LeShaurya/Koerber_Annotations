@@ -1,6 +1,7 @@
 package com.example.controller;
 
 import com.example.entities.Book;
+import com.example.entities.InformationData;
 import com.example.services.BookService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,9 @@ import java.util.List;
 @RestController
 @RequestMapping(path = "api")
 public class BookController {
+
+    @Autowired
+    private InformationData informationData;
 
     private final BookService bookService;
 
@@ -51,5 +55,10 @@ public class BookController {
     public ResponseEntity<Void> removeProduct(@PathVariable int id) {
         bookService.removeBook(id);
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+    }
+
+    @GetMapping("/helloInfo")
+    public ResponseEntity<InformationData> informationDataSend() {
+        return ResponseEntity.status(HttpStatus.OK).body(informationData);
     }
 }

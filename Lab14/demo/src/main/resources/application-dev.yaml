@@ -1,0 +1,11 @@
+key:
+  message: "Hell from dev"
+
+account:
+  message: "welcome to prodapp dev profile"
+  contactDetails:
+    name: "dev"
+    email: "sdeep@dev.com"
+  phoneNumbers:
+    -3333333333
+    -4444444444
