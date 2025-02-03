@@ -1,10 +1,8 @@
 package com.bankApp.controllers;
 
 import com.bankApp.dto.AccountDto;
-import com.bankApp.entities.Account;
 import com.bankApp.services.AccountService;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -9,7 +9,6 @@ import com.bankApp.repositories.AccountRepository;
 import com.bankApp.services.aspect.Loggable;
 import com.bankApp.utils.ConvertDto;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service

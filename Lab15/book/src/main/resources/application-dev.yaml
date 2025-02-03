@@ -1,0 +1,17 @@
+key:
+  message: "Hello From default"
+
+account:
+  message: "welcome to development profile"
+  contactDetails:
+    name: "default"
+    email: "sdeep@default.com"
+  phoneNumbers:
+    -111111111
+    -222222222
+#logging:
+#  level:
+#    root: OFF
+#    org:
+#      springframework:
+#        boot: OFF
