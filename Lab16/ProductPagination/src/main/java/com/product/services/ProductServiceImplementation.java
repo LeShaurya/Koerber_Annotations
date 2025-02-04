@@ -27,6 +27,6 @@ public class ProductServiceImplementation implements ProductService{
 
     @Override
     public Page<Product> getAllProductPageSorted(String field, int offset, int pageSize) {
-        return productRepo.findAll(PageRequest.of(offset, 			pageSize).withSort(Sort.by(field)));
+        return productRepo.findAll(PageRequest.of(offset,pageSize).withSort(Sort.by(field)));
     }
 }
