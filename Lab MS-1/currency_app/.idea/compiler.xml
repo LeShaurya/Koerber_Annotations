@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="currency-exchange" />
         <module name="currency-conversion" />
+        <module name="eureka" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="currency-conversion" options="-parameters" />
       <module name="currency-exchange" options="-parameters" />
+      <module name="eureka" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,8 +1,24 @@
 spring:
   application:
-    name: currency-conversion
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+
 server:
-  port: 8100
+  port: 8765
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8090/eureka/
 
 management:
   endpoints:
@@ -25,15 +41,6 @@ management:
   tracing:
     sampling:
       probability: 1.0
-
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://localhost:8090/eureka/
 
 logging:
   pattern:

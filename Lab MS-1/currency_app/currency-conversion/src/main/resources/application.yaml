@@ -1,8 +1,8 @@
 spring:
   application:
-    name: currency-exchange
+    name: currency-conversion
 server:
-  port: 8000
+  port: 8100
 
 management:
   endpoints:
@@ -22,13 +22,6 @@ management:
       enabled: true
     readinessstate:
       enabled: true
-  tracing:
-    sampling:
-      probability: 1.0
-
-logging:
-  pattern:
-    level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
 
 eureka:
   instance:
