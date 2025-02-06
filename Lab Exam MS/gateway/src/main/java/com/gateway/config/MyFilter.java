@@ -11,9 +11,6 @@ import reactor.core.publisher.Mono;
 @Component
 public class MyFilter implements GlobalFilter {
 
-//    Spring Reactive programming
-//    REST: Spring MVC rest vs Spring reactive programming
-
     private final Logger logger = LoggerFactory.getLogger(MyFilter.class);
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
