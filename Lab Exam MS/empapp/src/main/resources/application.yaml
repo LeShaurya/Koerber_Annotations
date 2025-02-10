@@ -33,6 +33,9 @@ management:
   endpoint:
     health:
       enabled: true
+  tracing:
+    sampling:
+      probability: 1.0
 
 resilience4j:
   circuitbreaker:
