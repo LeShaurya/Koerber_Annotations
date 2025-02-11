@@ -1,10 +1,10 @@
-package com.library;
+package com.gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BookApplicationTests {
+class GatewayApplicationTests {
 
 	@Test
 	void contextLoads() {
