@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Objects;
+
 @RestController
 public class CurrencyExchangeController {
 	
@@ -27,7 +29,7 @@ public class CurrencyExchangeController {
 		
 		ExchangeValue exchangeValue = exchangeService.findByFromAndTo(from, to);
 		
-		exchangeValue.setPort(Integer.parseInt(environment.getProperty("local.server.port")));
+		exchangeValue.setPort(Integer.parseInt(Objects.requireNonNull(environment.getProperty("local.server.port"))));
 		
 		logger.info("{}", exchangeValue);
 		
