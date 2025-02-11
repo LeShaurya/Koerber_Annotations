@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: currency-exchange
+  config:
+    import: optional:configserver:http://localhost:8888
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 8000
