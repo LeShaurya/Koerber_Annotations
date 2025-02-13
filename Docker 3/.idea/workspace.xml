@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73017670-085c-41a4-8dd0-754576787171" name="Changes" comment="Docker 1 Assignment 3">
+      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/Docker 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/src/main/java/com/bookapp/BookappApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/src/main/java/com/bookapp/controller/BookAppController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/src/main/java/com/bookapp/service/InstanceInformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/src/test/java/com/bookapp/BookappApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Docker 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/bookapp/BookappApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/bookapp/controller/BookAppController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/bookapp/service/InstanceInformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/src/test/java/com/bookapp/BookappApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LeShaurya&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LeShaurya/Koerber_Annotations.git&quot;,
+    &quot;accountId&quot;: &quot;37f7a2e6-f9f3-453c-807a-8dc97cdfa1be&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2syunCITjQhmvI3SZJ58R5wel1c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bookapp [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bookapp [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shauryadeepsinh.raol\Desktop\Koerber_Backend_Training\Koerber_Annotations\Docker 1\bookapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73017670-085c-41a4-8dd0-754576787171" name="Changes" comment="" />
+      <created>1739440299869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739440299869</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Docker Ass 1 part 1">
+      <option name="closed" value="true" />
+      <created>1739441716353</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739441716353</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Docker 1 Assignment 3">
+      <option name="closed" value="true" />
+      <created>1739442606328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739442606328</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Docker Ass 1 part 1" />
+    <MESSAGE value="Docker 1 Assignment 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker 1 Assignment 3" />
+  </component>
+</project>
