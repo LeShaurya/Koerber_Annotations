@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: order-app-deploy
+  annotations:
+    kubernetes.io/change-cause: "deploying v2"
+spec:
+  minReadySeconds: 10
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: "100%"
+  selector:
+    matchLabels:
+      app:  order-app-service
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app:  order-app-service
+    spec:
+      containers:
+      - name:  order-app-service
+        image: shauryadeepraolji/orderapp:1.2
+        ports:
+        - name: "app-port"
+          containerPort: 8080
