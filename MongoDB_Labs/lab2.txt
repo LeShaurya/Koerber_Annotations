@@ -1,0 +1,290 @@
+WEEK_6_ASSIGNMENT_2
+
+
+
+
+
+Q1:- create one mongodb database called peaksdb
+
+Ans:- 
+use peaksdb
+
+Note:-
+Database will not be created directly by the above command. The database will be created once we insert something into the database.
+
+
+
+
+
+*****************************************************
+
+
+
+
+
+Q2:- create collections called peaks insert all documents mention above
+
+Ans:-
+db.peaks.insertMany([
+    {
+        "name": "Everest",
+        "height": 8848,
+        "location": ["Nepal", "China"],
+        "ascents": {
+            "first": {
+                "year": 1953
+            },
+            "first_winter": {
+                "year": 1980
+            },
+            "total": 5656
+        }
+    },
+    {
+        "name": "K2",
+        "height": 8611,
+        "location": ["Pakistan", "China"],
+        "ascents": {
+            "first": {
+                "year": 1954
+            },
+            "first_winter": {
+                "year": 1921
+            },
+            "total": 306
+        }
+    },
+    {
+        "name": "Kangchenjunga",
+        "height": 8586,
+        "location": ["Nepal", "India"],
+        "ascents": {
+            "first": {
+                "year": 1955
+            },
+            "first_winter": {
+                "year": 1986
+            },
+            "total": 283
+        }
+    },
+    {
+        "name": "Lhotse",
+        "height": 8516,
+        "location": ["Nepal", "China"],
+        "ascents": {
+            "first": {
+                "year": 1956
+            },
+            "first_winter": {
+                "year": 1988
+            },
+            "total": 461
+        }
+    },
+    {
+        "name": "Makalu",
+        "height": 8485,
+        "location": ["China", "Nepal"],
+        "ascents": {
+            "first": {
+                "year": 1955
+            },
+            "first_winter": {
+                "year": 2009
+            },
+            "total": 361
+        }
+    }
+])
+
+
+
+
+
+*****************************************************
+
+
+
+
+
+Q3:- Try selecting a mountain that matches the name Everest and the exact height of 8848 meters
+
+Ans:-
+db.peaks.find({ $and : [ { "name" : "Everest" }, { "height" : 8848 } ] })
+
+Output:-
+[
+  {
+    _id: ObjectId('67b304ad58c3ebb454cb0ce2'),
+    name: 'Everest',
+    height: 8848,
+    location: [ 'Nepal', 'China' ],
+    ascents: {
+      first: { year: 1953 },
+      first_winter: { year: 1980 },
+      total: 5656
+    }
+  }
+]
+
+
+
+
+
+*****************************************************
+
+
+
+
+
+
+Q4:- Write Query to  find mountains located in both China and Nepal
+
+Ans:-
+db.peaks.find({ location : { $all : ["China", "Nepal"] } })
+
+Output:-
+[
+  {
+    _id: ObjectId('67b304ad58c3ebb454cb0ce2'),
+    name: 'Everest',
+    height: 8848,
+    location: [ 'Nepal', 'China' ],
+    ascents: {
+      first: { year: 1953 },
+      first_winter: { year: 1980 },
+      total: 5656
+    }
+  },
+  {
+    _id: ObjectId('67b304ad58c3ebb454cb0ce5'),
+    name: 'Lhotse',
+    height: 8516,
+    location: [ 'Nepal', 'China' ],
+    ascents: { first: { year: 1956 }, first_winter: { year: 1988 }, total: 461 }
+  },
+  {
+    _id: ObjectId('67b304ad58c3ebb454cb0ce6'),
+    name: 'Makalu',
+    height: 8485,
+    location: [ 'China', 'Nepal' ],
+    ascents: { first: { year: 1955 }, first_winter: { year: 2009 }, total: 361 }
+  }
+]
+
+
+
+
+
+*****************************************************
+
+
+
+
+
+Q5:- Return any documents describing mountains that were first ascended in winter only after the year 2000
+
+Ans:-
+db.peaks.find({ "ascents.first_winter.year" : { $gt : 2000 } })
+
+Output:-
+[
+  {
+    _id: ObjectId('67b304ad58c3ebb454cb0ce6'),
+    name: 'Makalu',
+    height: 8485,
+    location: [ 'China', 'Nepal' ],
+    ascents: { first: { year: 1955 }, first_winter: { year: 2009 }, total: 361 }
+  }
+]
+
+
+
+
+
+*****************************************************
+
+
+
+
+
+
+Q6:- Return data from each document, but will exclude the ascents and location fields
+
+Ans:-
+db.peaks.find({}, {location: 0, ascents: 0})
+
+Output:-
+[
+  {
+    _id: ObjectId('67b304ad58c3ebb454cb0ce2'),
+    name: 'Everest',
+    height: 8848
+  },
+  {
+    _id: ObjectId('64b2f7cfa0c45f89b3489d67'),
+    name: 'K2',
+    height: 8611
+  },
+  {
+    _id: ObjectId('67b304ad58c3ebb454cb0ce4'),
+    name: 'Kangchenjunga',
+    height: 8586
+  },
+  {
+    _id: ObjectId('67b304ad58c3ebb454cb0ce5'),
+    name: 'Lhotse',
+    height: 8516
+  },
+  {
+    _id: ObjectId('67b304ad58c3ebb454cb0ce6'),
+    name: 'Makalu',
+    height: 8485
+  }
+]
+
+
+
+
+
+*****************************************************
+
+
+
+
+
+
+Q7:- Write Queries which will retrieve only three mountain peaks from the collection
+
+Ans:-
+db.peaks.find().limit(3)
+
+Output:-
+[
+  {
+    _id: ObjectId('67b304ad58c3ebb454cb0ce2'),
+    name: 'Everest',
+    height: 8848,
+    location: [ 'Nepal', 'China' ],
+    ascents: {
+      first: { year: 1953 },
+      first_winter: { year: 1980 },
+      total: 5656
+    }
+  },
+  {
+    _id: ObjectId('64b2f7cfa0c45f89b3489d67'),
+    name: 'K2',
+    height: 8611,
+    location: [ 'Pakistan', 'China' ],
+    ascents: { first: { year: 1954 }, first_winter: { year: 1921 }, total: 306 }
+  },
+  {
+    _id: ObjectId('67b304ad58c3ebb454cb0ce4'),
+    name: 'Kangchenjunga',
+    height: 8586,
+    location: [ 'Nepal', 'India' ],
+    ascents: { first: { year: 1955 }, first_winter: { year: 1986 }, total: 283 }
+  }
+]
