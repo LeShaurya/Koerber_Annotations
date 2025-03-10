@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="productstore" />
+        <module name="empapp (3)" />
+        <module name="spring-demo1 (1)" />
+        <module name="serilization_example" />
+        <module name="empapp (4)" />
+        <module name="hello-aop" />
+        <module name="hibernate-00-helloworld (4)" />
+        <module name="jpa-06-m2m" />
+        <module name="calapp" />
+        <module name="bankapp-jdbc" />
+        <module name="empapp (1)" />
+        <module name="empapp (2)" />
+        <module name="jpa-04-one-2-one-uni" />
+        <module name="spring-demo1" />
+        <module name="empapp" />
+        <module name="jpa-04-one-2-one-uni (1)" />
+        <module name="doubts_monday_20jan" />
+        <module name="jpa-05-one-2-many" />
+        <module name="hibernate-00-helloworld (1)" />
+        <module name="hibernate-00-helloworld (3)" />
+        <module name="hibernate-00-helloworld (2)" />
+        <module name="bankapp-assignment" />
+        <module name="hibernate-00-helloworld" />
+        <module name="jpa-07-inh-mapping" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bankapp-assignment" options="-parameters" />
+      <module name="calapp" options="-parameters" />
+      <module name="empapp (1)" options="-parameters" />
+      <module name="empapp (2)" options="-parameters" />
+      <module name="empapp (3)" options="-parameters" />
+      <module name="empapp (4)" options="-parameters" />
+      <module name="productstore" options="-parameters" />
+    </option>
+  </component>
+</project>

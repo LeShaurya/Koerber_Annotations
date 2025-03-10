@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/assignment_week3_batch2/empapp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/assignment_week3_batch2/empapp1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/assignment_week3_batch2/empapp2-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/assignment_week3_batch2/empapp3-jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/assignment_week3_batch2/productstore/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/imp maven dep/discussion txt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/imp maven dep/discussion txt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jdbc_stuff/doubts_monday_20jan/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jdbc_stuff/doubts_monday_20jan/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jdbc_stuff/empapp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jdbc_stuff/empapp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/hibernate-00-hello/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/hibernate-00-hello/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-00/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-00/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-02-dao-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-02-dao-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-03-embedded/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-03-embedded/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-04-element-collection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-04-element-collection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-04-one-2-one-bi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-04-one-2-one-bi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-04-one-2-one-uni/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-04-one-2-one-uni/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-05-one-2-many/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-05-one-2-many/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-06-m2m/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-06-m2m/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-07-inh-mapping/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-07-inh-mapping/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/lab_exam/bankapp-assignment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/spring_aop/bankapp01-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/spring_aop/bankapp01-aop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/spring_aop/hello-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/spring_aop/hello-aop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/spring_aop/serilization_example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/spring_aop/serilization_example/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/spring_aop/spring-bean-life/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/spring_aop/spring-bean-life/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/calapp/src/main/java" charset="UTF-8" />
+  </component>
+</project>

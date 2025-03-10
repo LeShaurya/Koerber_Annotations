@@ -5,46 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73017670-085c-41a4-8dd0-754576787171" name="Changes" comment="Docker 1 Assignment 3">
-      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/Docker 1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/src/main/java/com/bookapp/BookappApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/src/main/java/com/bookapp/controller/BookAppController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/src/main/java/com/bookapp/service/InstanceInformationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/src/main/resources/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Docker 2/bookapp/src/test/java/com/bookapp/BookappApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Docker 1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/bookapp/BookappApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/bookapp/controller/BookAppController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/bookapp/service/InstanceInformationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/src/main/resources/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/src/test/java/com/bookapp/BookappApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +108,29 @@
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Docker Ass 1 part 1" />

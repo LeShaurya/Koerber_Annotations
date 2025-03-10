@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/calapp/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/lab_exam/bankapp-assignment/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jdbc_stuff/empapp/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jdbc_stuff/doubts_monday_20jan/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/spring_aop/hello-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/spring_aop/bankapp01-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/spring_aop/spring-bean-life/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/spring_aop/serilization_example/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-00/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-06-m2m/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-03-embedded/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-05-one-2-many/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/hibernate-00-hello/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-02-dao-service/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-07-inh-mapping/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-04-one-2-one-bi/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-04-one-2-one-uni/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/jpa_examples/jpa-04-element-collection/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/imp maven dep/discussion txt/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/assignment_week3_batch2/empapp/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/assignment_week3_batch2/empapp1/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/assignment_week3_batch2/empapp2-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/assignment_week3_batch2/empapp3-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/backend_java_backend_25_code/code_all_weeks/week3_jdbc_boot/assignment_week3_batch2/productstore/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
